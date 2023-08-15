@@ -3,6 +3,7 @@ from lxml import etree
 import re
 import sys
 
+
 with open("reader-notionapi.txt", "r") as prf:
     page_id = ("".join(prf.readlines(1))).strip("\n")
     token = ("".join(prf.readlines(2))).strip("\n")
